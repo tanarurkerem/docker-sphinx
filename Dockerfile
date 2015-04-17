@@ -11,6 +11,7 @@ RUN pacman -Syu --needed --noconfirm \
     make && \
     rm -rf /var/cache/pacman
 
-CMD ["make", "html"]
+ENTRYPOINT ["make"]
+CMD ["html"]
 
 # vim:ft=Dockerfile:
