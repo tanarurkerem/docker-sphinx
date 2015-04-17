@@ -6,6 +6,8 @@ RUN pacman -Syu --needed --noconfirm \
     python2-sphinx_rtd_theme \
     python2-tox \
     sphinxcontrib2-programoutput \
+    texlive-most \
+    texlive-lang \
     make && \
     rm -rf /var/cache/pacman
 
